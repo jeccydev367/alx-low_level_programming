@@ -1,24 +1,15 @@
 #include<stdio.h>
 /**
- *main - prints all possibke different combinations of two digits
+ *main - prints alphabet in lowercase
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
 {
-int i, j;
-for (i = 48; i <= 56; i++)
+char cha;
+for (cha = 'a'; cha <= 'z'; cha++)
 {
-for (j = 49; j <= 57; j++)
-{
-if (i < j)
-{
-putchar(i);
-putchar(j);
-(i == 56 && j == 57);
-putchar(',');
-putchar(' ');
-}
-}
+putchar(cha);
 }
 putchar('\n');
 return (0);
