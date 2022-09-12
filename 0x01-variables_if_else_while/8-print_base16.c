@@ -11,7 +11,7 @@ for (i = 48; i < 58; i++)
 {
 putchar(i);
 }
-for (i = 48; i < 103; i++)
+for (i = 96; i < 103; i++)
 {
 putchar(i);
 }
