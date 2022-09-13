@@ -1,20 +1,18 @@
-#include<stdio.h>
-#include"main.h"
+#include "main.h"
 /**
- *main - check the code
+ * _putchar - for printing characters
  *
- *Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-return (0);
+	int i;
+	char p[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(p[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
