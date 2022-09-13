@@ -1,21 +1,17 @@
 #include "main.h"
-
 /**
- * print_alphabet - lowercase letters from a to z
+ * main - check code
  *
- * Return: void
+ * Return: Always 0 (Success)
  */
 int main(void)
-{ 
-	int i = 0;
-	int j = 0;
-	for (i = 0; i < 10; i++)
+{
+	int b = 0;
+
+	for (b = 'a'; b <= 'z'; b++)
 	{
-		for (i = 'a'; j <= 'z'; j++)
-		{
-			_putchar('j');
-		}
-		_putchar('\n');
-	        return (0);
+		_putchar(b);
 	}
+	_putchar('\n');
+	return (0);
 }
