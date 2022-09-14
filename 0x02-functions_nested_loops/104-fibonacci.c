@@ -35,7 +35,7 @@ int main(void)
 		a = b;
 		b = c;
 
-		if (c >= 1000)
+		if (c >= 100)
 			printf("%lu%lu", z, c);
 		else
 			printf("%lu0%lu", z, c);
