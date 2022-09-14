@@ -17,7 +17,7 @@ int _abs(int n)
 	}
 	else
 	{
-		rrturn (n);
+		return (n);
 	}
 
 }
