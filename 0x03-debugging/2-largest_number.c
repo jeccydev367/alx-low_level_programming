@@ -8,7 +8,7 @@
  * Return: largest number
  */
 
-int largets_number(int a, int b, int c)
+int larget_number(int a, int b, int c)
 {
 	int largest;
 
