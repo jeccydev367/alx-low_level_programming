@@ -2,7 +2,7 @@
 
 /**
  * mul - Multiply two values
- * @ca: first value
+ * @a: first value
  * @b: second value
  *
  * Return: result of a*b.
