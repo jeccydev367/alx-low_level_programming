@@ -1,12 +1,4 @@
 
-Search or jump to…
-Pulls
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@jeccydev367 
 Royalboe
 /
 alx-low_level_programming
@@ -21,11 +13,8 @@ Insights
 alx-low_level_programming/0x1A-hash_tables/100-sorted_hash_table.c
 @Royalboe
 Royalboe Creates a sorted hash table
-Latest commit 51343f1 on Jul 1, 2022
- History
  1 contributor
 219 lines (192 sloc)  4.42 KB
-
 #include "hash_tables.h"
 
 shash_table_t *shash_table_create(unsigned long int size);
